@@ -45,3 +45,13 @@ STEP d
 bin/
 out/
 target/
+
+STEP f
+(feature-1) git log --oneline --decorate -5
+<buraya feature-1 log çıktın>
+
+(feature-1) ls -R hmk1
+<buraya feature-1 hmk1 listesi>
+
+(main) ls -R hmk1
+No such file or directory
