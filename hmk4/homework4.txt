@@ -98,3 +98,9 @@ a39aef2 clean up STEP f section
 f47def1 (origin/feature-1, feature-1) add STEP f outputs
 c7c6969 merge feature-1 into main
 a240ddf add STEP f branch comparison outputs
+
+STEP k
+(feature-3) git log --oneline --decorate -3
+3b0c1f2 (HEAD -> feature-3, origin/feature-3) print even numbers
+80f6b10 (origin/main, main) add STEP g evidence
+a20ebb0 merge feature-1 into main (STEP g)
