@@ -4,3 +4,19 @@ git config --global user.email "23COMP1010@isik.edu.tr"
 git config --global core.editor "code --wait"
 git config --global --list
 
+STEP b
+Command: ls -la .git
+total 40
+drwxr-xr-x  12 deniz  staff  384 Jan  2 19:05 .
+drwxr-xr-x   5 deniz  staff  160 Jan  2 19:05 ..
+-rw-r--r--   1 deniz  staff   37 Jan  2 19:05 COMMIT_EDITMSG
+-rw-r--r--   1 deniz  staff  312 Jan  2 19:02 config
+-rw-r--r--   1 deniz  staff   73 Jan  2 18:48 description
+-rw-r--r--   1 deniz  staff   21 Jan  2 18:57 HEAD
+drwxr-xr-x  16 deniz  staff  512 Jan  2 18:48 hooks
+-rw-r--r--   1 deniz  staff  182 Jan  2 19:05 index
+drwxr-xr-x   3 deniz  staff   96 Jan  2 18:48 info
+drwxr-xr-x   4 deniz  staff  128 Jan  2 19:05 logs
+drwxr-xr-x  14 deniz  staff  448 Jan  2 19:05 objects
+drwxr-xr-x   5 deniz  staff  160 Jan  2 19:02 refs
+
