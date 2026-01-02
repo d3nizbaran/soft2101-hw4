@@ -61,4 +61,17 @@ RangePrinter.class  RangePrinter.java
 (main) ls -R hmk1
 ls: hmk1: No such file or directory
 
+STEP g
+git log --oneline --decorate -8
+a20ebb0 (HEAD -> main, origin/main) merge feature-1 into main (STEP g)
+a39aef2 clean up STEP f section
+f47def1 (origin/feature-1, feature-1) add STEP f outputs
+c7c6969 merge feature-1 into main
+a240ddf add STEP f branch comparison outputs
+1ee5271 add STEP d gitignore rules
+524a08f satisfying requirement one
+c07bf2a update homework4.txt on feature-1
+
+ls -R hmk1
+RangePrinter.java
 
