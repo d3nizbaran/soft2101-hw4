@@ -75,3 +75,8 @@ c07bf2a update homework4.txt on feature-1
 ls -R hmk1
 RangePrinter.java
 
+STEP j
+(feature-2) git log --oneline --decorate -3
+e6a6aa2 (HEAD -> feature-2, origin/feature-2) print odd numbers
+80f6b10 (origin/main, origin/feature-3, main, feature-3) add STEP g evidence
+a20ebb0 merge feature-1 into main (STEP g)
