@@ -31,7 +31,7 @@ STEP d
 *.war
 *.ear
 
-# Logs
+# Log`s
 *.log
 
 # macOS
@@ -53,5 +53,10 @@ STEP f
 (feature-1) ls -R hmk1
 <buraya feature-1 hmk1 listesi>
 
-(main) ls -R hmk1
-No such file or directory
+*.log
+.DS_Store
+.vscode/
+.idea/
+bin/
+out/
+target/
