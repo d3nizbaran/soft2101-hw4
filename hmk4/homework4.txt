@@ -51,6 +51,7 @@ STEP f
 524a08f (HEAD -> feature-1, origin/feature-1) satisfying requirement one
 c07bf2a update homework4.txt on feature-1
 d6ff682 setting up gitignore
+d6ff682 (origin/main, main) setting up gitignore
 2518551 add STEP c markdown link answer
 97ec1fa update README
 
