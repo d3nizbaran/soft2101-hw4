@@ -120,3 +120,39 @@ index f0b7d95..af7e659 100644
 
 git merge feature-3
 merge feature-3 into main (STEP m)
+
+STEP n
+git branch -a
+  feature-1
+  feature-2
+  feature-3
+* main
+  remotes/origin/feature-1
+  remotes/origin/feature-2
+  remotes/origin/feature-3
+  remotes/origin/main
+
+git log --oneline --decorate -12
+665f2a1 (HEAD -> main, origin/main) add STEP m diff evidence
+c093f85 merge feature-3 into main (STEP m)
+61ca2f4 add STEP l merge evidence
+a8b6755 (origin/feature-3, feature-3) add STEP k evidence
+3b0c1f2 print even numbers
+8e14ed2 (origin/feature-2, feature-2) add STEP j evidence
+e6a6aa2 print odd numbers
+80f6b10 add STEP g evidence
+a20ebb0 merge feature-1 into main (STEP g)
+a39aef2 clean up STEP f section
+f47def1 (origin/feature-1, feature-1) add STEP f outputs
+c7c6969 merge feature-1 into main
+
+ls -R
+hmk1		hmk4		hwk4		README.md
+
+./hmk1:
+RangePrinter.class	RangePrinter.java
+
+./hmk4:
+homework4.txt
+
+./hwk4:
