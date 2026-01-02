@@ -80,3 +80,21 @@ STEP j
 e6a6aa2 (HEAD -> feature-2, origin/feature-2) print odd numbers
 80f6b10 (origin/main, origin/feature-3, main, feature-3) add STEP g evidence
 a20ebb0 merge feature-1 into main (STEP g)
+
+STEP l
+git merge feature-2
+Updating 80f6b10..8e14ed2
+Fast-forward
+ hmk1/RangePrinter.java | 4 +++-
+ hmk4/homework4.txt     | 5 +++++
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+
+git log --oneline --decorate -8
+8e14ed2 (HEAD -> main, origin/main, origin/feature-2, feature-2) add STEP j evidence
+e6a6aa2 print odd numbers
+80f6b10 add STEP g evidence
+a20ebb0 merge feature-1 into main (STEP g)
+a39aef2 clean up STEP f section
+f47def1 (origin/feature-1, feature-1) add STEP f outputs
+c7c6969 merge feature-1 into main
+a240ddf add STEP f branch comparison outputs
