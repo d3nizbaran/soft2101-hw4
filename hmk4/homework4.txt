@@ -75,3 +75,8 @@ c07bf2a update homework4.txt on feature-1
 ls -R hmk1
 RangePrinter.java
 
+STEP k
+(feature-3) git log --oneline --decorate -3
+3b0c1f2 (HEAD -> feature-3, origin/feature-3) print even numbers
+80f6b10 (origin/main, main) add STEP g evidence
+a20ebb0 merge feature-1 into main (STEP g)
