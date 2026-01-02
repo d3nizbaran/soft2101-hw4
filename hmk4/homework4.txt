@@ -22,3 +22,17 @@ drwxr-xr-x   5 deniz  staff  160 Jan  2 19:02 refs
 
 STEP c
 [Department of Software Engineering - Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+STEP d
+.gitignore rules:
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.DS_Store
+.vscode/
+.idea/
+bin/
+out/
+target/
