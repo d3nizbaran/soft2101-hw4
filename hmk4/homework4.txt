@@ -104,3 +104,19 @@ STEP k
 3b0c1f2 (HEAD -> feature-3, origin/feature-3) print even numbers
 80f6b10 (origin/main, main) add STEP g evidence
 a20ebb0 merge feature-1 into main (STEP g)
+
+STEP m
+git diff main feature-3 -- hmk1/RangePrinter.java
+diff --git a/hmk1/RangePrinter.java b/hmk1/RangePrinter.java
+index f0b7d95..af7e659 100644
+--- a/hmk1/RangePrinter.java
++++ b/hmk1/RangePrinter.java
+@@ -11,7 +11,7 @@ public class RangePrinter {
+-            if(i % 2 != 0) {
++            if(i % 2 == 0) {
+                 System.out.println(i);
+             }
+         }
+
+git merge feature-3
+merge feature-3 into main (STEP m)
