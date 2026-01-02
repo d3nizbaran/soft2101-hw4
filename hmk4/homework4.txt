@@ -36,3 +36,17 @@ STEP d
 bin/
 out/
 target/
+
+STEP f
+(feature-1) git log --oneline --decorate -5
+524a08f (HEAD -> feature-1, origin/feature-1) satisfying requirement one
+c07bf2a update homework4.txt on feature-1
+d6ff682 (origin/main, main) setting up gitignore
+2518551 add STEP c markdown link answer
+97ec1fa update README
+
+(feature-1) ls -R hmk1
+RangePrinter.class  RangePrinter.java
+
+(main) ls -R hmk1
+ls: hmk1: No such file or directory
